@@ -1,0 +1,13 @@
+{
+    "name": "arthur/devarthur",
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.24"
+    },
+    "authors": [
+        {
+            "name": "Arthur Wagenknecht",
+            "email": "arthur_2@live.com"
+        }
+    ]
+}

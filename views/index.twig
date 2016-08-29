@@ -1,0 +1,53 @@
+{% extends 'template.twig' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <div class="index1">
+          <img src="/images/me.jpg" witdh="100px" height="100px" class="fotoPerfil"/>
+          <p class="textoIndex1">Olá, me chamo Arthur, sou <b>desenvolvedor web</b>, moro em Indaial/Santa Catarina. Se quiser saber mais sobre mim, ou sobre o meu trabalho, clique no botão abaixo.</p>
+          <a href="/computerskills" class="btn btn-primary readAboutMe">Veja meu currículo</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="index3FaleComigo">
+          <p class="textoIndex">Se desejar falar comigo ou pedir um job, basta clicar no botão abaixo que será direcionado pra page de contado (:</p>
+          <a href="/contato" class="btn btn-primary btnContatoIndex">Fale comigo !</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="index3Portfolio">
+          <p class="textoIndex">Veja alguns dos meus trabalhos que eu fiz no decorrer da minha carreira clicando no botão abaixo.</p>
+          <a href="/portfolio" class="btn btn-primary btnPortfolioIndex">Veja meu Portfólio</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="index3Galeria">
+          <p class="textoIndex">Gosta de imagens para desenvolvedores? Clique no botão abaixo para ver a galeria de imagens somente para devs.</p>
+          <a href="/galeria" class="btn btn-primary btnGaleriaIndex">Veja minha galeria</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="index3Blog">
+          <p class="textoIndex">Acesse meu blog clicando no botão abaixo, fique por dentro de tudo que eu publicar.</p>
+          <a href="/blog" class="btn btn-primary btnBlogIndex">Acesse meu blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div class="index3Mensagem">
+          <p class="textoIndex"><i><b>Ser feliz não é ter uma vida perfeita, mas deixar de ser vítima dos problemas e se tornar o autor da própria história.<b><i></p>
+          <p class="author"><i>~ Abraham Lincoln</i></p>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'template.twig' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+
+        <form action="/include/enviaEmail.php" method="post" class="form" id="formContato">
+          <h2 class="faleComigoTexto">Fale comigo, preencha os seus dados!!</h2>
+          <input type="text" class="formContato" name="nome" placeholder="Nome" required maxlength="50" /><br />
+          <input type="email" class="formContato" name="email" placeholder="Email" required maxlength="50" /><br />
+          <input type="text" class="formContato" name="assunto" placeholder="Assunto" required maxlength="50"/><br />
+          <textarea name="mensagem" class="formContato" style="height: 279px;" rows="8" cols="40" placeholder="Digite sua mensagem" required></textarea><br />
+          <input type="submit" class="btn btn-primary" style="width: 485px;" value="Enviar"/>
+        </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
